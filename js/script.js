@@ -29,9 +29,7 @@ if(etaPasseggero > 65) {
 
 console.log('Il prezzo del biglietto è ',prezzoFinale)
 
-
-document.getElementById('prezzo-biglietto').innerHTML= `prezzo biglietto`
 output = `
 ${prezzoFinale}
 `;
-document.getElementById('prezzo-biglietto').innerHTML += output;
+document.getElementById(`prezzo-biglietto`).innerHTML += output;
