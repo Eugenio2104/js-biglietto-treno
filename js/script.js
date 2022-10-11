@@ -30,6 +30,6 @@ if(etaPasseggero > 65) {
 console.log('Il prezzo del biglietto è ',prezzoFinale)
 
 output = `
-${prezzoFinale}
+${prezzoFinale.toFixed(2)}
 `;
 document.getElementById(`prezzo-biglietto`).innerHTML += output;
